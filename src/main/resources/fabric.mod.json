@@ -3,31 +3,24 @@
 	"id": "etiquetteenderman",
 	"version": "${version}",
 	"name": "Etiquette Enderman",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Endermen ask for consent before being aggroed if you look at them",
 	"authors": [
-		"Me!"
+		"Kevinthegreat"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/kevinthegreat1/consent-creepers",
+		"sources": "https://github.com/kevinthegreat1/consent-creepers"
 	},
-	"license": "CC0-1.0",
+	"license": "GPL-3.0-or-later",
 	"icon": "assets/etiquetteenderman/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"com.kevinthegreat.etiquetteenderman.EtiquetteEnderman"
-		],
-		"client": [
-			"com.kevinthegreat.etiquetteenderman.EtiquetteEndermanClient"
 		]
 	},
 	"mixins": [
-		"etiquetteenderman.mixins.json",
-		{
-			"config": "etiquetteenderman.client.mixins.json",
-			"environment": "client"
-		}
+		"etiquetteenderman.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.17.3",
@@ -36,6 +29,6 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"another-mod": "consentcreepers"
 	}
 }
