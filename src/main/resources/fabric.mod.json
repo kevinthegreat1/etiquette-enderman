@@ -8,8 +8,8 @@
 		"Kevinthegreat"
 	],
 	"contact": {
-		"homepage": "https://github.com/kevinthegreat1/consent-creepers",
-		"sources": "https://github.com/kevinthegreat1/consent-creepers"
+		"homepage": "https://github.com/kevinthegreat1/etiquette-enderman",
+		"sources": "https://github.com/kevinthegreat1/etiquette-enderman"
 	},
 	"license": "GPL-3.0-or-later",
 	"icon": "assets/etiquetteenderman/icon.png",
@@ -29,6 +29,6 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "consentcreepers"
+		"consentcreepers": "*"
 	}
 }
